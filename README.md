@@ -24,4 +24,4 @@ Pull requests are welcome, but make sure the following criteria are satisfied:
 * Join the slack channel for discussion [SAiDL Season Of Code 2021](https://join.slack.com/t/ssoc2021/shared_invite/zt-tkej9ur7-TxxIfcvS3PFFMpJK2VNR5g)
 * Be nice!
 
-For more information about the project's setup, please read [CONTRIBUTING.md](https://github.com/Adversarial-Deep-Learning), :star: us if you liked the work.
+For more information about the project's setup, please read [CONTRIBUTING.md](https://github.com/Adversarial-Deep-Learning/adversarial-deep-learning.github.io/blob/main/CONTRIBUTING.md), :star: us if you liked the work.

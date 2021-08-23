@@ -16,7 +16,7 @@ very valuable contributions that decrease the burden on the project maintainers.
     - Post about your intended feature, and we shall discuss the design and
     implementation. Once we agree that the plan looks good, go ahead and implement it.
 4. You would like to implement a feature or bug-fix for an outstanding issue
-    - Look at the issues labelled as ["good first issue"](https://github.com/Adversarial-Deep-Learning)
+    - Look at the issues labelled as ["good first issue"](https://github.com/Adversarial-Deep-Learning/adversarial-deep-learning.github.io/blob/main/CONTRIBUTING.md)
     - Pick an issue and comment on the task that you want to work on this feature.
     - If you need more context on a particular issue, please ask and we shall provide.
 
@@ -51,7 +51,7 @@ Contributors can keep adding to this list for links they find useful.
 
 #### Send a PR
 
-If everything is OK, please send a Pull Request to <https://github.com/Adversarial-Deep-Learning>
+If everything is OK, please send a Pull Request to <https://github.com/Adversarial-Deep-Learning/adversarial-deep-learning.github.io>
 
 If you are not familiar with creating a Pull Request, here are some guides:
 - <http://stackoverflow.com/questions/14680711/how-to-do-a-github-pull-request>
