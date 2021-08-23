@@ -1,5 +1,15 @@
 # adversarial-deep-learning.github.io
-Website for the book Adversarial Deep Learning
+Website for the book Adversarial Deep Learning, powered by jekyll
+
+# Requirements
+Install jekyll's CLI, based on your operating system, from [here](https://jekyllrb.com/docs/installation)
+
+To run the website locally:
+```bash
+bundle install
+bundle exec jekyll serve
+```
+Navigate to <http://localhost:4000> on your browser.
 
 ## Contribution
 Pull requests are welcome, but make sure the following criteria are satisfied:

@@ -20,16 +20,6 @@ very valuable contributions that decrease the burden on the project maintainers.
     - Pick an issue and comment on the task that you want to work on this feature.
     - If you need more context on a particular issue, please ask and we shall provide.
 
-# Requirements
-Install jekyll's CLI, based on your operating system, from [here](https://jekyllrb.com/docs/installation)
-
-To run the website locally:
-```bash
-bundle install
-bundle exec jekyll serve
-```
-Navigate to <http://localhost:4000> on your browser.
-
 
 # Directory Structure
 The website is structured like a book as shown below:
