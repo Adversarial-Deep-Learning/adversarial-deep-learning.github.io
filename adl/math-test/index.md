@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MathJax Test
+title: MathJax v3
 parent: Adversarial Deep Learning
 has_children: true
 ---

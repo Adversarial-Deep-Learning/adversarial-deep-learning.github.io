@@ -1,6 +1,6 @@
 ---
-title: MathJax v3 usage
-parent: MathJax Test
+title: Usage
+parent: MathJax v3
 layout: default
 grand_parent: Adversarial Deep Learning
 math: mathjax3
