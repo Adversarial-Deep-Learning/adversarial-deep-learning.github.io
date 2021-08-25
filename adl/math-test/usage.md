@@ -8,8 +8,6 @@ math: mathjax3
 
 # MathJax v3
 
-Just the Docs sites can be customised to support [MathJax](https://www.mathjax.org),
-as explained in the [configuration suggestions](config).
 Pages with `math: mathjax3` in the front matter then render $$\mathrm{\LaTeX}$$ code in [kramdown math blocks](https://kramdown.gettalong.org/syntax.html#math-blocks) using MathJax v3.
 For example:
 

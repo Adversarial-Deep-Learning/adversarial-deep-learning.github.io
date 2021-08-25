@@ -8,30 +8,7 @@ math: mathjax3
 
 # MathJax v3 Tests
 
-This page tests $$\mathrm{\LaTeX}$$ rendering using MathJax v3 with
-[just-the-docs](https://github.com/pmarsceill/just-the-docs) as a remote theme.
-
-It was copied from a
-[test](https://github.com/atom-community/markdown-preview-plus/blob/master/EXAMPLE.md)
-in [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus),
-and adjusted to use
-[kramdown math blocks](https://kramdown.gettalong.org/syntax.html#math-blocks).
-
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+This page previews some tests for MathJax v3.
 
 $$x$$ math at the start of a line
 
