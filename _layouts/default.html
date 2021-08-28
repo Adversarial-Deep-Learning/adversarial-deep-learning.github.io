@@ -202,12 +202,16 @@ layout: table_wrappers
   </div>
 <script>
     const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+    localStorage.setItem('theme', '{{ site.color_scheme }}');
     jtd.addEvent(toggleDarkMode, 'click', function () {
-        if (jtd.getTheme() === 'dark') {
-            jtd.setTheme('light');
+        if (localStorage.getItem("theme") === 'dark') {
+            localStorage.setItem('theme', 'light');
+            jtd.setTheme(localStorage.getItem("theme"));
             toggleDarkMode.textContent = 'Switch to Dark Mode';
-        } else {
-            jtd.setTheme('dark');
+        } else if (localStorage.getItem("theme") === 'light') {
+            localStorage.setItem('theme', 'dark');
+            jtd.setTheme(localStorage.getItem("theme"));
             toggleDarkMode.textContent = 'Switch to Light Mode';
         }
     });
