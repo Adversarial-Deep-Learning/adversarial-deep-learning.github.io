@@ -15,7 +15,8 @@ for chapter in os.listdir(PATH):
 		# print("------------>"+str(glob.glob(ipynb_folder+"/*.ipynb")))
 		title = glob.glob(ipynb_folder+"/*.ipynb")[0].split('/')[-1].split('.')[0]
 		print(ipynb_folder+"/"+title)
-		os.system(f'jupyter nbconvert --to html "{ipynb_folder}/{title}.ipynb"')
+		os.system(
+			f'jupyter nbconvert --to html "{ipynb_folder}/{title}.ipynb" --HTMLExporter.theme=dark')
 		os.remove(f"{ipynb_folder}/{title}.ipynb")
 		md_file = f"---\nlayout: default\ntitle: {title}\nparent: {chapter}\ngrand_parent: Adversarial Deep Learning\n---"
 		with open(f"{PATH+chapter}/{title}.md","w") as f:
